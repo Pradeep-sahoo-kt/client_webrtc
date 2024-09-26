@@ -21,7 +21,7 @@ const Lobby = () => {
 
   const handleJoinRoom = useCallback((data)=>{
     const { email , room } = data
-    navigate(`/room/${room}`)
+    navigate(`https://onlinecalling.netlify.app/room/${room}`)
     console.log(email , room)
   }, [navigate])
 

@@ -7,7 +7,7 @@ export default function App() {
     <div>
     <Routes>
       <Route path="/" element={<Lobby/>} />
-      <Route path="/room/:roomId" element={<Room/>}/>
+      <Route path="https://onlinecalling.netlify.app/room/:roomId" element={<Room/>}/>
     </Routes>
     </div>
   )
